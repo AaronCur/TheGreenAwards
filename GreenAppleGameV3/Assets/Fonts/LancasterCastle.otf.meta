@@ -1,0 +1,22 @@
+fileFormatVersion: 2
+guid: a5f4d779700439f4599e1675fe7e8d44
+timeCreated: 1494408253
+licenseType: Free
+TrueTypeFontImporter:
+  serializedVersion: 4
+  fontSize: 16
+  forceTextureCase: -2
+  characterSpacing: 0
+  characterPadding: 1
+  includeFontData: 1
+  fontName: Lancaster Castle
+  fontNames:
+  - Lancaster Castle
+  fallbackFontReferences:
+  - {fileID: 12800000, guid: 2535edec35c190746bde23a7662cf364, type: 3}
+  customCharacters: 
+  fontRenderingMode: 0
+  ascentCalculationMode: 1
+  userData: 
+  assetBundleName: 
+  assetBundleVariant: 
