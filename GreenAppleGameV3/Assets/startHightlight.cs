@@ -63,7 +63,7 @@ public class startHightlight : MonoBehaviour, IPointerEnterHandler
 
         if (loadingTimer <= 0)
         {
-            SceneManager.LoadScene(game);
+           // SceneManager.LoadScene(game);
         }
     }
 

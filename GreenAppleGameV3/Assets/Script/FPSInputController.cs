@@ -16,6 +16,7 @@ public class FPSInputController : MonoBehaviour
     // Use this for initialization
     void Awake()
     {
+        Cursor.visible = false;
         motor = GetComponent<CharacterMotor>();
     }
 
@@ -36,7 +37,7 @@ public class FPSInputController : MonoBehaviour
         }
         // Apply the direction to the CharacterMotor
         motor.inputMoveDirection = gameCamera.transform.rotation * forwardVector;
-        motor.inputJump = Input.GetButton("Jump");
+        //motor.inputJump = Input.GetButton("Jump");
 
         //Closes application if escape key is pressed
         if (Input.GetKeyDown(KeyCode.Escape))

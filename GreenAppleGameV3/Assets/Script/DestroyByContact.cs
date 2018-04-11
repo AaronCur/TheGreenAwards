@@ -46,8 +46,9 @@ public class DestroyByContact : MonoBehaviour {
                     timer--;
                 }
                 if (timer == 0)
-                {
-                    SceneManager.LoadScene(sceneNew);    //when the timer is done load the new scene
+                { 
+                    //loads end of game scene
+                    SceneManager.LoadScene(1);   
                 }
             }
         }
@@ -55,13 +56,13 @@ public class DestroyByContact : MonoBehaviour {
 
     void SetCountText()
     {
-        appleText.text = "Key: " + apple.ToString() + " / 7";
+        appleText.text = "Apples " + apple.ToString() + " / 7";
     }
     void OnGUI()
     {
         if (apple >= 7)
         {
-            GUI.DrawTexture(rect, image, ScaleMode.StretchToFill);      //if all the collectables are collected display the loading screen image
+            GUI.DrawTexture(rect, image, ScaleMode.ScaleToFit);      //if all the collectables are collected display the loading screen image
         }
     }
 }
