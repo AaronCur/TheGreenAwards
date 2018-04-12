@@ -5,7 +5,7 @@ Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "GreenAppleGameV3.Plugins", 
 EndProject
 Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "GreenAppleGameV3", "GreenAppleGameV3.csproj", "{98AA2299-C8CB-9D15-A38C-3D350E82375B}"
 EndProject
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "GreenAppleGameV3.Editor", "GreenAppleGameV3.Editor.csproj", "{2AA9A515-97D8-95AD-4BB2-B7CB2D69CA71}"
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "GreenAppleGameV3", "Assembly-CSharp-Editor-firstpass.csproj", "{03832270-4F77-0DD3-01DA-4427122C0391}"
 EndProject
 Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "GreenAppleGameV3.Editor.Plugins", "GreenAppleGameV3.Editor.Plugins.csproj", "{D21EFA6F-0DA2-7AB1-A091-D6281C239B6E}"
 EndProject
@@ -34,5 +34,8 @@ Global
 	EndGlobalSection
 	GlobalSection(SolutionProperties) = preSolution
 		HideSolutionNode = FALSE
+	EndGlobalSection
+	GlobalSection(MonoDevelopProperties) = preSolution
+		StartupItem = Assembly-CSharp.csproj
 	EndGlobalSection
 EndGlobal
