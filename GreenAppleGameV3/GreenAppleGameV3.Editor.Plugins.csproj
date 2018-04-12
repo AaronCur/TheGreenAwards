@@ -306,13 +306,13 @@
     </Reference>
   </ItemGroup>
   <ItemGroup>
-    <ProjectReference Include="GreenAppleGameV3.csproj">
-      <Project>{98AA2299-C8CB-9D15-A38C-3D350E82375B}</Project>
-      <Name>GreenAppleGameV3</Name>
-    </ProjectReference>
     <ProjectReference Include="GreenAppleGameV3.Plugins.csproj">
       <Project>{2E3AE229-83FA-EF74-8159-413E850BECDF}</Project>
       <Name>GreenAppleGameV3.Plugins</Name>
+    </ProjectReference>
+    <ProjectReference Include="GreenAppleGameV3.csproj">
+      <Project>{98AA2299-C8CB-9D15-A38C-3D350E82375B}</Project>
+      <Name>GreenAppleGameV3</Name>
     </ProjectReference>
   </ItemGroup>
   <ItemGroup>
