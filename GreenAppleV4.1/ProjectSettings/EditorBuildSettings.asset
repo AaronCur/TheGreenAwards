@@ -9,8 +9,11 @@ EditorBuildSettings:
     path: Assets/Scene/Build.unity
     guid: 2b02c29601fc84e49a18fde7fed33f95
   - enabled: 0
-    path: Assets/__DELETED_GUID_Trash/99dab5ff83566c5499b0cb59e57f05e1
-    guid: 99dab5ff83566c5499b0cb59e57f05e1
+    path: 
+    guid: 00000000000000000000000000000000
   - enabled: 1
     path: Assets/Scene/gallery_scene.unity
     guid: faa749730af78b44a927409f09b298cb
+  - enabled: 0
+    path: Assets/GoogleVR/Demos/Scenes/HelloVR.unity
+    guid: bb36d2905dc634f1c9eecb35beecaca8
