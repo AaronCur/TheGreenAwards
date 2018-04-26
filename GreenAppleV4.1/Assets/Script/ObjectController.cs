@@ -20,8 +20,8 @@ namespace GoogleVR.HelloVR {
     private Vector3 startingPosition;
     private Renderer myRenderer;
 
-    public Material inactiveMaterial;
-    public Material gazedAtMaterial;
+    public Sprite inactiveMaterial;
+    public Sprite gazedAtMaterial;
 
     void Start() {
       startingPosition = transform.localPosition;
@@ -31,7 +31,8 @@ namespace GoogleVR.HelloVR {
 
     public void SetGazedAt(bool gazedAt) {
       if (inactiveMaterial != null && gazedAtMaterial != null) {
-        myRenderer.material = gazedAt ? gazedAtMaterial : inactiveMaterial;
+    //    myRenderer.material = gazedAt ? gazedAtMaterial : inactiveMaterial;
+        this.GetComponent<SpriteRenderer>().sprite = gazedAt ? gazedAtMaterial : inactiveMaterial;
         return;
       }
     }
